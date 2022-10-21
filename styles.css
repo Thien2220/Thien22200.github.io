@@ -1,0 +1,83 @@
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  i {
+    font-size: 150% !important;
+  }
+  .rounded-circle {
+    transform: translate(-20%) !important;
+  }
+  :root {
+    --pad: 5px !important;
+  }
+  .rounded-circle {
+    height: 3rem;
+    width: 3rem;
+    transform: translate(20%) !important;
+    background-color: #9e88ff;
+  }
+}
+/* pc */
+@media (min-width: 992px) {
+  i {
+    font-size: 200% !important;
+  }
+  .rounded-circle {
+    transform: translate(-20%) !important;
+  }
+  :root {
+    --pad: 10px !important;
+  }
+  .pad-bot .bg-in {
+    padding-bottom: 150px !important;
+  }
+}
+/* mobile/all */
+i {
+  font-size: 120%;
+}
+:root {
+  --pad: 3px;
+}
+.bg-out {
+  background-color: #0000ff;
+  padding: var(--pad) !important;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 255, 0.2);
+}
+.pad {
+  padding: var(--pad) !important;
+}
+.bg-in {
+  background-color: #f0f8ff;
+  height: 100%;
+  padding: 30px;
+}
+.bg-in h1 {
+  color: #0000ff;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px !important;
+}
+.container {
+  margin-top: 4rem;
+}
+.rounded-circle {
+  height: 3rem;
+  width: 3rem;
+  transform: translate(20%);
+  background-color: #9e88ff;
+}
+.rounded-circle h2 {
+  margin: 0.1rem;
+  height: 100%;
+  width: 100%;
+  transform: translate(10%);
+}
+.outside {
+  padding: 50px;
+}
+p {
+  font-size: 20px;
+}

@@ -1,0 +1,79 @@
+@media (max-width: 767.8px) {
+  .name {
+    display: none;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+  }
+  .stick {
+    top: 0;
+  }
+  #about .container {
+    flex-direction: column;
+  }
+  #about .container div {
+    padding-right: 50px;
+  }
+  /* job */
+  .padleft {
+    width: 100%;
+  }
+  /* chung chi */
+  #certificate .incontainer {
+    padding: 0;
+  }
+  #certificate img {
+    width: 100%;
+  }
+  #certificate h1 {
+    padding-bottom: none;
+  }
+  #certificate h3 {
+    padding-left: 2rem;
+    font-weight: 600;
+  }
+  .col {
+    display: block;
+  }
+  .flexce {
+    display: block;
+    padding: 10px;
+    padding-top: 50px;
+  }
+  .bd-left {
+    border-left: none;
+    border-top: 1px solid orangered;
+  }
+  /* pro */
+  #project .containerin {
+    display: block;
+  }
+  #project .pro {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .inf1 {
+    display: block;
+  }
+
+  /* like */
+  .flex-like .span {
+    width: 40px;
+    height: 40px;
+  }
+  .flex-like .span i {
+    font-size: 20px;
+  }
+  #footer i {
+    font-size: 100%;
+  }
+  #nav-bar a {
+    height: 20px;
+  }
+  .linkk:visited,
+  .linkk:link {
+    background-color: rgba(128, 128, 128, 0.464);
+    color: whitesmoke;
+  }
+}
